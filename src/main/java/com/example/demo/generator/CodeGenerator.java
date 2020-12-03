@@ -51,7 +51,7 @@ public class CodeGenerator {
                 .setCapitalMode(true)
                 .setEntityLombokModel(true)
                 .setRestControllerStyle(true)
-                .setInclude("person")
+                .setInclude("order")
                 .setNaming(NamingStrategy.underline_to_camel);
         autoGenerator.setStrategy(strategyConfig);
 

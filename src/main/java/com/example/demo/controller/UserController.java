@@ -28,7 +28,7 @@ public class UserController {
     public String save(){
         for (int i=0;i<10;i++){
             User user=new User();
-            user.setId(i);
+            user.setId(i+60);
             user.setName("瓜田李下 "+i);
             user.setAge(10+i);
 
